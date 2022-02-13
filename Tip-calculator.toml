@@ -1,0 +1,14 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[tool]
+[tool.poetry]
+authors = ["Betty_Alagwu <bettyalagwu@gmail.com>"]
+description = "Tip-calculator_helps_you_calculates_the_tip_amount_of _various_percentages_of_the_cost_of_the_service_and_also_ provides_a_total_amount_that_includes_the_tip_and_also_split_the_bill_between_friends!"
+name = "repl_python3_tip-calculator-start"
+version = "0.1.0"
+[tool.poetry.dependencies]
+python = "^3.8"
+replit = "^3.2.4"
+[tool.poetry.dev-dependencies]
